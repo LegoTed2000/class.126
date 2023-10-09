@@ -1,0 +1,43 @@
+body {
+    background-size: cover;
+}
+
+.heading {
+    font-size: 20px;
+    width: 100%;
+}
+
+.note {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.div_speed {
+    float: left;
+}
+
+.div_speed_img {
+    width: 300px;
+    border-radius: 500px;
+}
+
+#speed {
+    font-size: 27px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.div_sound {
+    float: right;
+}
+
+.div_sound_img {
+    width: 300px;
+    border-radius: 500px;
+}
+
+#sound {
+    font-size: 27px;
+    font-weight: bold;
+    margin: 20px;
+}
