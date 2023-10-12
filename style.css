@@ -41,3 +41,14 @@ body {
     font-weight: bold;
     margin: 20px;
 }
+
+.play_song{
+    width: 150px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+canvas{
+    border:5px solid rgb(0, 255, 0);
+    border-radius: 30px;
+}
