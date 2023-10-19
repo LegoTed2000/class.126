@@ -3,6 +3,7 @@ leftWristx = 0;
 leftWristy = 0;
 rightWristx = 0;
 rightWristy = 0;
+scoreleftwrist = 0;
 
 function preload() {
     song = loadSound("music.mp3");
@@ -21,6 +22,18 @@ function setup() {
 
 function draw() {
     image(video, 0, 0, 800, 700);
+
+    fill("#02e866")
+    stroke("#ff0004")
+
+    if(scoreleftwrist > 0.2) {
+    circle(leftWristx, leftWristy, 20);
+    InNumberleftWristY = Number(leftWristy);
+    remove_decimals = floor(InNumberleftWristY);
+    volume = remove_decimals/500 ;
+    document.getElementById("sound").innerHTML = "Sound = " + volume;
+    song.setVolume(volume);
+    }
 }
 
 function play_sound() {
